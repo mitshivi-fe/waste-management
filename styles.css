@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('e-waste-background.jpg'); /* Add your background image here */
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.label {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.checkbox-group {
+    margin-bottom: 20px;
+}
+
+.checkbox-group label {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.food-item, .e-waste-item {
+    margin-bottom: 15px;
+}
+
+.food-item label, .e-waste-item label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.food-item input, .e-waste-item input {
+    width: 50px;
+}
+
+.submit-btn {
+    background-color: #e23744; /* Zomato's primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
