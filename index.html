@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="container" id="screen0">
+      <div class="header">Zomato</div>
         <div class="label">Select Food Items and Quantity</div>
         <div class="food-item">
             <label for="pizza">Pizza (Rs. 200 each)</label>
@@ -25,8 +26,9 @@
     </div>
     
     <div class="container" id="screen1" style="display: none;">
-        <div class="label">Your Bill</div>
-        <div id="bill-info"></div>
+        
+        <div class="label" id="bill-info"></div>
+        <div class="label"></div>
         <div class="label">Do you want to give e-waste?</div>
         <div class="checkbox-group">
             <label for="yes">
@@ -54,7 +56,7 @@
             <input type="number" id="bulb" name="bulb" min="0" max="10" value="0">
         </div>
         <div class="e-waste-item">
-            <label for="wire">Wire (1 meter = Rs. 0.5 each)</label>
+            <label for="wire">Wire (1 meter = Rs. 0.5)</label>
             <input type="number" id="wire" name="wire" min="0" max="10" value="0">
         </div>
         <div class="e-waste-item">
@@ -66,15 +68,16 @@
             <input type="number" id="charger" name="charger" min="0" max="10" value="0">
         </div>
         <div class="e-waste-item">
-            <label for="small-e-items">Small e-items (Chips and all) (Rs. 1 each)</label>
+            <label for="small-e-items">Small e-items (Chips, transistors etc.) (Rs. 1 each)</label>
             <input type="number" id="small-e-items" name="small-e-items" min="0" max="10" value="0">
         </div>
         <button class="submit-btn" onclick="calculateDiscount()">Submit</button>
     </div>
 
     <div class="container" id="screen3" style="display: none;">
-        <div class="label">Discount Information</div>
+        <div class="label"><b>Discount Information</b></div>
         <div id="discount-info"></div>
+        <div class="label"></div>
         <div class="label">Do you want to continue with this discount?</div>
         <div class="checkbox-group">
             <label for="continue-yes">

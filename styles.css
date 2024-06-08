@@ -8,13 +8,24 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #e23744
 }
+
+.header {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #e23744
+    
+}
+
 
 .container {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    
 }
 
 .label {
